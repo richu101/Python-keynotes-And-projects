@@ -29,7 +29,7 @@ while True:
     print("press 'v' to enter volume control mode")
     
     query = input(" ")
-    dir = "/home/pi/Documents/python/Text-to-Speech/Drum sounds/"
+    dir = "/home/pi/Documents/Python-keynotes-And-projects/python-projrcts/Drum sounds/sound_track"
     voice = dir + query + frmt
 
     play_music(voice)
