@@ -1,5 +1,5 @@
 """
-This code will play a sound according to the input char the we get from seri
+This code will play a sound according to the input char the we get from serially
 """
 
 from pygame import mixer
