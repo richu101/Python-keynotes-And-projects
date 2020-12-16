@@ -1,3 +1,7 @@
+"""
+This code will play a sound according to the input char the we get from seri
+"""
+
 from pygame import mixer
 import serial
 
@@ -19,6 +23,7 @@ def play_music(voice):
 
 ser = serial.Serial('/dev/ttyACM0')  # open serial port
 print(ser.name)
+
 while 1:
     s = str(ser.readline(1))  
     frmt = ".mp3"
