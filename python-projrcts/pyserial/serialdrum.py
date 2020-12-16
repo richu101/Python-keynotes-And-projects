@@ -26,7 +26,7 @@ while 1:
     # The sounds are  included in the drum sound folder 
     snd = direction + s[2:-1] + frmt
     play_music(snd)
-    print(snd)
+    print(s) # print the name of the sound that is playing
     
 
 
