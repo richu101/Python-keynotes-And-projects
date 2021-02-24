@@ -30,3 +30,18 @@ for i in range(1,num+1):
    f=f*i
 print(f)
 ```
+
+## Write a python program to perform basic arithmetic functions such as abs, sine, 
+real, imag, complex and using built in modules.
+-------
+```
+import math
+a=int(input("number"))
+print(abs(a))
+print(math.sin(math.radians (a)))
+b=int(input("num2"))
+c=complex(a,b)
+print(c)
+print(c.real)
+print(c.imag)
+```
