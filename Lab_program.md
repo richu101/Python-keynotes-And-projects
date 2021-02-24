@@ -1,4 +1,6 @@
-# Plot the graph of sin and cos
+# Python lab projects
+# Richu
+## Plot the graph of sin and cos
 ------------
 ```
 import numpy as np
