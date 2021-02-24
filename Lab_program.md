@@ -13,7 +13,7 @@ plt.title('sin and cos wave')
 plt.legend()
 plt.show()
 ```
-
+# Q2
 Fibanocii series
 -----------
 ```
@@ -30,9 +30,10 @@ for i in range(1,num+1):
    f=f*i
 print(f)
 ```
-
-## Write a python program to perform basic arithmetic functions such as 
-## abs, sine, real, imag, complex and using built in modules.
+# Q3
+-------
+Write a python program to perform basic arithmetic functions such as 
+abs, sine, real, imag, complex and using built in modules.
 
 -------
 ```
