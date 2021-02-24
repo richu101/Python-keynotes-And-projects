@@ -32,7 +32,7 @@ print(f)
 ```
 
 ## Write a python program to perform basic arithmetic functions such as 
-##abs, sine, real, imag, complex and using built in modules.
+## abs, sine, real, imag, complex and using built in modules.
 
 -------
 ```
