@@ -31,8 +31,8 @@ for i in range(1,num+1):
 print(f)
 ```
 
-## Write a python program to perform basic arithmetic functions such as abs, sine, 
-real, imag, complex and using built in modules.
+## Write a python program to perform basic arithmetic functions such as 
+##abs, sine, real, imag, complex and using built in modules.
 
 -------
 ```
