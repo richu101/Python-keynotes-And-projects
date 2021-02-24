@@ -1,6 +1,8 @@
-# Python lab projects
-# Richu
-## Plot the graph of sin and cos
+# Python lab projects :boom:
+ 
+# Q1
+------------
+ Plot the graph of sin and cos
 ------------
 ```
 import numpy as np
@@ -16,6 +18,7 @@ plt.legend()
 plt.show()
 ```
 # Q2
+
 Fibanocii series
 -----------
 ```
@@ -49,3 +52,40 @@ print(c)
 print(c.real)
 print(c.imag)
 ```
+# Q4
+---------
+Realize the functions sin t, and cos t for the vector t =[0; 10] with increment 
+
+0:01.
+---------
+```
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.arange(0,10,0.01)
+y = np.sin(x)
+z=np.cos(x)
+plt.plot(y,label='sin')
+plt.plot(z,label='cos')
+plt.legend()
+plt.grid()
+plt.title('cos and sin')
+plt.show()
+```
+
+# Q5
+-------
+Write a python program to compute the first N Fibonacci numbers using 
+function. 
+--------
+```
+num=int(input("enter a number"))
+first=0
+sec=1
+for i in range(num):
+ c=first+sec
+ t=first
+ first=sec
+ sec=c
+print(t)
+```
+# Richu 
