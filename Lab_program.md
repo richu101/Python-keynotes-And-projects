@@ -125,5 +125,22 @@ r=np.linalg.matrix_rank(n)
 print(r)
 ```
 
+# Q8
+ 
+-----------
+Plot histogram from an xlxs file
+----------
+```
+from google.colab import files
+uploaded=files.upload()
+```
 
+```
+import matplotlib.pyplot as plt
+import pandas as pd
+files = pd.read_excel('/copypath.xlxs')
+value = files['data']
+plt.hist(files['data'])
+plot.show()
+```
 # Richu 
