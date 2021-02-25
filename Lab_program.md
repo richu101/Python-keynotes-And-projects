@@ -119,8 +119,8 @@ import numpy as np
 n=np.matrix([[5,-3],[-6,2]])
 print(n)
 print("\n")
-e,ev=np.linalg.eig(n)
-print(e,ev)
+ev=np.linalg.eig(n)
+print(ev)
 r=np.linalg.matrix_rank(n)
 print(r)
 ```
@@ -143,4 +143,12 @@ value = files['data']
 plt.hist(files['data'])
 plot.show()
 ```
+
+# Q8
+
+-------
+
+-------
+
+
 # Tech.Rick 
