@@ -33,7 +33,7 @@ else:
 
 for i in range(1,num+1):
    f=f*i
-print(f)
+   print(f)
 ```
 # Q3
 -------
@@ -147,8 +147,33 @@ plot.show()
 # Q8
 
 -------
-
+Sum of n complex numbers
 -------
+```
+def a(x):
+ sum=0
+ l=[] 
+for i in range(x):
+  y=complex(input("num "))
+  l.append(y)
+for i in range(x):
+  sum=sum+l[i]
 
+print("sum=",sum)
+b= int(input("number"))
+a(b)
+```
+
+# Q9
+---------
+Scatter ,hist,plot,bar of random data
+---------
+```
+from matplotlib import pyplot as plt
+import numpy as np
+x=np.random.randn(10)
+print(x)
+plt.scatter(x,x)
+```
 
 # Tech.Rick 
