@@ -19,7 +19,7 @@ plt.show()
 ```
 # Q2
 
-Fibanocii series
+Factorial of a num
 -----------
 ```
 num=int(input("enter a number"))
@@ -55,7 +55,6 @@ print(c.imag)
 # Q4
 ---------
 Realize the functions sin t, and cos t for the vector t =[0; 10] with increment 
-
 0:01.
 ---------
 ```
@@ -87,5 +86,25 @@ for i in range(num):
  first=sec
  sec=c
 print(t)
+```
+
+# Q6
+-----------
+Write a python program to plot the histogram of an image.
+-----------
+```
+  from google.colab import files
+  uploaded=files. upload()
+```
+```
+import cv2
+from matplotlib import pyplot as plt
+png=cv2.imread('/content/Sc fibo.png')
+plt.imshow(png)
+plt.show()
+color=cv2.cvtColor(png,cv2.COLOR_BGR2RGB)
+plt.imshow(color)
+plt.title('richu')
+plt.show()  
 ```
 # Richu 
