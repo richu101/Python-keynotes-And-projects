@@ -107,4 +107,21 @@ plt.imshow(color)
 plt.title('richu')
 plt.show()  
 ```
+
+# Q7 
+
+----------
+```
+import numpy as np
+
+n=np.matrix([[5,-3],[-6,2]])
+print(n)
+print("\n")
+e,ev=np.linalg.eig(n)
+print(e,ev)
+r=np.linalg.matrix_rank(n)
+print(r)
+```
+
+
 # Richu 
