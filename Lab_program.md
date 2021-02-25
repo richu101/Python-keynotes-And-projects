@@ -35,6 +35,7 @@ for i in range(1,num+1):
    f=f*i
    print(f)
 ```
+
 # Q3
 -------
 Write a python program to perform basic arithmetic functions such as 
@@ -153,11 +154,11 @@ Sum of n complex numbers
 def a(x):
  sum=0
  l=[] 
-for i in range(x):
-  y=complex(input("num "))
-  l.append(y)
-for i in range(x):
-  sum=sum+l[i]
+ for i in range(x):
+   y=complex(input("num "))
+   l.append(y)
+ for i in range(x):
+   sum=sum+l[i]
 
 print("sum=",sum)
 b= int(input("number"))
