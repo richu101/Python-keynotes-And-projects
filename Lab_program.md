@@ -110,6 +110,8 @@ plt.show()
 
 # Q7 
 
+Write a python program to Compute the rank and Eigen values of a 2x2 matrix
+
 ----------
 ```
 import numpy as np
