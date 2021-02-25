@@ -143,4 +143,4 @@ value = files['data']
 plt.hist(files['data'])
 plot.show()
 ```
-# Richu 
+# Tech.Rick 
