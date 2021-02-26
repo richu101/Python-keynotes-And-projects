@@ -18,6 +18,7 @@ plt.legend()
 plt.show()
 ```
 # Q2
+--------
 
 Factorial of a num
 -----------
