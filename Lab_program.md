@@ -24,6 +24,8 @@ Factorial of a num
 ```
 num=int(input("enter a number"))
 f=1
+
+
 if num <0:
   print('cant')
 elif num==0:
